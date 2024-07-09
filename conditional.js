@@ -18,24 +18,22 @@
 //     console.log("Good evening")
 // }
 
-// let score=80;
-// let grade ;
-// If (score >=90){
-//     grade ='A';
-// }
-// else if (score>=80){
-//     grade ='B'
-// }
-// else (score>=70){
-//     grade= 'C'
-// }
-// else(score >=60) {
-//     grade ='D'
-// }
-// else (score >=60) {
-//     grade ='E'
-// }
+let score=80;
 
 
-
+if (score >=90 ) {
+    console.log('You scored A');
+}
+else if (score>=80){
+    console.log('You scored B');
+}
+else if(score>=70){
+    console.log('You scored C');
+}
+else if(score >=60) {
+    console.log('You scored D');
+}
+else  {
+    console.log('You scored E');
+}
 
